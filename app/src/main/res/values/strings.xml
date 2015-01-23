@@ -25,5 +25,6 @@
     <string name="example_part_8">" my "</string>
     <string name="example_part_9">". I miss "</string>
     <string name="example_part_10">" and the way we slept over the floor."</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

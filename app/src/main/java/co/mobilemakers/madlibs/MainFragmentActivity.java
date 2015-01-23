@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainFragmentActivity extends ActionBarActivity {
 
     EditText[] mEdits;
     Button mButtonShowMe;
@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
     protected class ShowMeListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
-            Intent resultsIntent = new Intent(MainActivity.this, ResultsActivity.class);
+            Intent resultsIntent = new Intent(MainFragmentActivity.this, ResultsActivity.class);
             String[] resultStrings = new String[10];
             for (int counter = 0; counter < 10; counter++) {
                 resultStrings[counter] = mEdits[counter].getText().toString();
@@ -54,6 +54,7 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +63,6 @@ public class MainActivity extends ActionBarActivity {
         controlsToVars();
 
         setListeners();
-
     }
 
     private void setListeners() {
@@ -88,7 +88,6 @@ public class MainActivity extends ActionBarActivity {
 
         mButtonShowMe = (Button)findViewById(R.id.button_show_me);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
