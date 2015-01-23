@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MadLibs</string>
+    <string name="action_settings">Settings</string>
+    <string name="relative">Relative</string>
+    <string name="adjective">Adjective</string>
+    <string name="person_in_room">Name of person in room</string>
+    <string name="verb_ed">Verb ending in "ed"</string>
+    <string name="body_part">Body part</string>
+    <string name="verb_ing">Verb ending in "ing"</string>
+    <string name="name">Name</string>
+    <string name="button_show_me">Show Me!</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="results">Results</string>
+    <string name="example">Example</string>
+    <string name="example_part_0">"When my "</string>
+    <string name="example_part_1">" looked for a "</string>
+    <string name="example_part_2">" chair, I didn\'t realize that there was a "</string>
+    <string name="example_part_3">" bed belonging to "</string>
+    <string name="example_part_4">". It was better because of its "</string>
+    <string name="example_part_5">" mattress, that can let "</string>
+    <string name="example_part_6">" your "</string>
+    <string name="example_part_7">" in a couple of hours. Of course, that didn\'t stopped "</string>
+    <string name="example_part_8">" my "</string>
+    <string name="example_part_9">". I miss "</string>
+    <string name="example_part_10">" and the way we slept over the floor."</string>
+
+</resources>
